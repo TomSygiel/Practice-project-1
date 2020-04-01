@@ -24,6 +24,12 @@ body {
   box-sizing: border-box;
 }
 
+.logo a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+}
+
 .icon,
 .close-btn {
   display: none;
@@ -85,7 +91,7 @@ body {
     position: absolute;
     top: 0;
     height: 100%;
-    width: 90%;
+    width: 60%;
     right: -90%;
     background: #fff;
     flex-direction: column;
